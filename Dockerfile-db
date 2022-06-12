@@ -1,4 +1,4 @@
-FROM mysql:latest
+gitFROM mysql:latest
 
 # Creds needed for intialization
 ENV MYSQL_ROOT_PASSWORD=${DB_USER}
